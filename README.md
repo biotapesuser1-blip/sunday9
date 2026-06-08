@@ -1,8 +1,10 @@
-# My Docs Site
+---
+title: "Welcome to Caring for Your Cat"
+---
 
-A Starlight-powered documentation site that publishes to GitHub Pages.
+# Caring for Your Cat
 
-Edit pages with AI assistance at [MD Docs](https://mddocs-site.redbeach-67793768.westus3.azurecontainerapps.io).
+This site is a comprehensive guide to help you keep your feline friends happy, healthy, and loved.
 
 ## Local dev
 
@@ -11,13 +13,13 @@ npm install
 npm run dev    # → http://localhost:4321
 ```
 
-## How publishing works
+## Publishing Workflow
 
-1. Edit pages (via the MD Docs editor, the GitHub web UI, or locally).
-2. Push to `main`.
-3. The `Deploy to GitHub Pages` Action builds with Starlight and publishes the result to GitHub Pages.
-4. Live in ~1–2 minutes at the URL configured in your repo's Settings → Pages.
+1. Edit pages locally or via the MD Docs editor.
+2. Push updates to `main`.
+3. The `Deploy to GitHub Pages` Action builds and publishes the site.
+4. Access your live site at the configured GitHub Pages URL.
 
-## Configuring the site URL
+## Site Configuration
 
-When you enable GitHub Pages on this repo (Settings → Pages → Source: "GitHub Actions"), Pages will publish at `https://<your-username>.github.io/<this-repo-name>/`. Edit `astro.config.mjs` so `site` matches `https://<your-username>.github.io` and `base` matches `/<this-repo-name>`. (The MD Docs editor will offer to do this for you on first connection.)
+Ensure your site's URL and base paths are correctly set in `astro.config.mjs`. This allows seamless publishing to your GitHub Pages URL.
